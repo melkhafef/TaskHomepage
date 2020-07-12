@@ -1,0 +1,152 @@
+body{
+    background-color: black;
+    position: relative;
+}
+
+#images{
+    position: absolute;
+    top: 50px;
+    left: 0;
+    z-index: -999;
+}
+nav{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 60%;
+    margin: 0 auto;
+    background-color:#2c2c31;
+    height: 70px;
+    z-index: 999;
+}
+nav #line{
+    width: 1%;
+    background-color: violet;
+}
+nav #logo {
+    width: 45%;
+    display: flex;
+    flex-wrap: nowrap;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+nav #logo #circle{
+    width: 10%;
+    height: 50%;
+    border: violet 1px solid;
+    border-radius: 50%;
+    background-color: violet;
+}
+nav #logo #name{
+    width: 50%;
+    font-size: xx-large;
+color: white;}
+nav #navigators {
+    width: 45%;
+}
+nav #navigators button {
+    width: 23%;
+height: 100%;
+    background-color:#2c2c31;
+color: white;
+border: none;
+}
+#images{
+    background-color: yellow;
+    width: 100%;
+    height: 500px;
+}
+#images h1 {
+    text-align: right;
+    padding-top: 200px;
+    padding-right: 100px;
+}
+#third{
+    position: absolute;
+    top: 490px;
+    left: 0;
+    z-index: 99999999999;
+    width: 80%;
+    margin-left: 8%;
+    margin-bottom: 50px;
+}
+#third div{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: auto;
+}
+#third div div {
+    width: 25%;
+    margin-left: 10%;
+    height: 300px;
+}
+#responsive{
+    background-color: tomato;
+}
+#easyToUse{
+    background-color: teal;
+}
+#QuickSupport{
+    background-color: orange;
+}
+#forth {
+    position: absolute;
+    top: 800px;
+    left: 200px ;
+    margin-bottom: 70px;
+    margin-top: 70px;
+}
+#forth div{
+    display: flex ;
+    flex-wrap: wrap;
+    width: 85%;
+}
+#forth div #image {
+    width: 50%;
+    background-color: orchid;
+}
+#forth div #content {
+    width: 50%;
+    background-color: rgb(24, 23, 22);
+}
+#forth div #content h2 {
+    color: white;
+}
+#forth div #content p {
+    color: grey ;
+}
+#forth div #content button {
+    height: 50px;
+    border: white 2px solid;
+    color: white;
+    background-color:rgb(24, 23, 22) ;
+}
+#fifth {
+    position: absolute;
+    top: 1000px;
+    left: 200px ;
+    margin-bottom: 70px;
+    margin-top: 100px;
+}
+#fifth #photos {
+    width: 100%;
+    height: 400px;
+    margin-top: 30px;
+    margin-bottom: 80px;
+    display: flex;
+    flex-wrap: wrap;
+}
+#fifth #photos div {
+width: 30%;
+}
+#fifth #photos div:hover {
+cursor: pointer;
+}
+#fifth div button{
+width: 10%;
+margin-left: 40%;
+color: white;
+background-color: black;
+border: white 2px solid;
+ height: 60px;
+}
